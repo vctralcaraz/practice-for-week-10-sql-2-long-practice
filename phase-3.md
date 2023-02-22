@@ -3,11 +3,13 @@
 In this phase, you will create queries to examine the tables that you created
 in the previous phase.
 
-Write your queries in `sql-practice/phase-3.sql` file. You can run the file by
+Write your queries in `sql-practice/phase-3/query-1.sql` and
+`sql-practice/phase-3/query-2.sql` file. You can run the file by
 executing it in the terminal:
 
 ```shell
-sqlite3 practice.db ".read phase-3.sql"
+sqlite3 practice.db ".read phase-3/query-1.sql"
+sqlite3 practice.db ".read phase-3/query-2.sql"
 ```
 
 ## Find Hermione's cats
@@ -30,3 +32,9 @@ query.
 
 Based on the seed data inserted into the database in Phase 2, what do you expect
 as the output of the SQL query? Does your query results match what you expected?
+
+Run the test specs in __test/phase-3-spec.js__ file by running:
+
+```shell
+npm test test/phase-3-spec.js
+```

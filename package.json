@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sqlite3": "sqlite3"
+    "sqlite3": "sqlite3",
+    "test": "mocha",
+    "test-with-json": "mocha --reporter json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sqlite3": "^5.0.2"
+    "sqlite3": "^5.0.2",
+    "better-sqlite3": "^7.5.3",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
   }
 }

@@ -2,11 +2,15 @@
 
 In this phase, you will create queries using different SELECT clauses.
 
-Write your SQL queries in `sql-practice/phase-5.sql` file. You can run the file
-by executing it in the terminal:
+Write your SQL queries in `sql-practice/phase-5` folder. You can run
+the file by executing it in the terminal:
 
 ```shell
-sqlite3 practice.db ".read phase-5.sql"
+sqlite3 practice.db ".read phase-5/query-1.sql"
+sqlite3 practice.db ".read phase-5/query-2.sql"
+sqlite3 practice.db ".read phase-5/query-3.sql"
+sqlite3 practice.db ".read phase-5/query-4.sql"
+sqlite3 practice.db ".read phase-5/query-5.sql"
 ```
 
 ## Owner's last name containing "r"
@@ -54,3 +58,9 @@ try doing it in multiple and then refactor to just one query.
 
 What do you expect as the output of the SQL query? Does your query results
 match what you expected?
+
+Run the test specs in __test/phase-5-spec.js__ file by running:
+
+```shell
+npm test test/phase-5-spec.js
+```
