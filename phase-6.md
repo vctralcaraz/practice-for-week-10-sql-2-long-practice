@@ -11,7 +11,7 @@ sqlite3 practice.db ".read phase-6/phase-6.sql"
 
 ## Change the name of a toy
 
-Update the name of Garfield's toy from "Cheetos" to "Pooky".
+Update the toy named "Cheetos" to "Pooky".
 
 Confirm that the change to the toy entry has been successfully updated in the
 database.
